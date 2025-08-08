@@ -2,6 +2,10 @@
 
 Quick setup for Node.js/Python development with Claude Code integration.
 
+## What is a Nix Flake?
+
+A Nix flake is a self-contained package that defines reproducible development environments and builds. Think of it as a lockfile for your entire dev stack - it pins exact versions of languages, tools, and dependencies so everyone gets identical environments across machines.
+
 ## Install Nix
 
 **Option 1 - Deterministic Installer (Recommended):**
@@ -61,6 +65,7 @@ That's it! The environment automatically configures Claude Code and cleans up on
 
 * Checkout [nix packages](https://search.nixos.org/packages)
 * Learn more about [nix and NixOS](https://nixos.org/)
+* Read more about Nix [Flakes](https://nix.dev/concepts/flakes.html)
 * Want to extend Nix and leverage a more robust dev env? Check these tools out (not sponsored):
   * [devenv](https://devenv.sh/)
   * [devbox](https://www.jetify.com/devbox)
